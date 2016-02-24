@@ -2,6 +2,12 @@
 
 *a place to build styleguides, linters, and other reasonable approaches to code.*
 
+## Golden Rule
+```
+Every line of code should appear to be written by a single person, no matter the number of contributors.
+```
+Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. 
+
 ## Table of Contents
 
   1. [CSS/SASS Styleguide](css/README.md)
