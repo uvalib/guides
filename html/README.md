@@ -26,7 +26,7 @@
 * Don’t omit optional closing tags (e.g. </li> or </body>).
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Page title</title>
@@ -41,7 +41,7 @@
 Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
   </head>
