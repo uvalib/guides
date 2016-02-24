@@ -11,6 +11,7 @@ Enforce these, or your own, agreed upon guidelines at all times. Small or large,
 ## Table of Contents
 
   1. [CSS/SASS Styleguide](css/README.md)
+  1. [HTML Styleguide](html/README.md)
   1. [Javascript Styleguide](js/README.md)
   1. [Ruby Styleguide](ruby/README.md)
   1. [NPM Tooling](tooling/README.md)
