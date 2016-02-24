@@ -1,1 +1,17 @@
 # NPM based tooling
+
+### Tooling that we love
+
+| Feature                                | Summary                                                                                                                                                                                                                                                     |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Line Critical CSS                       | Inlining critical “above-the-fold” CSS ensures users can begin interacting with the page faster. I used this [Critical](https://github.com/addyosmani/critical) by Addy Osmani 
+| CSS Loaded Asynchronously                     | I used [loadCSS](https://github.com/filamentgroup/loadCSS) to asyncronously load all of my CSS and prevent blocking CSS behavior 
+| Sass support                           | Compile [Sass](http://sass-lang.com/) into CSS with ease, bringing support for variables, mixins and more. (Add your assets to the `src` directory and run `npm start` to build)                                                                                                      |
+| Performance optimization               | We minify and concatenate JavaScript, CSS, HTML and images to be respectful of our users bandwidths. (Run `npm run start` to create an optimised version of your project to `/dist`)                                                                                                |
+| Code Linting               | JavaScript code linting is done using [ESLint](http://eslint.org) - a pluggable linter tool for identifying and reporting on patterns in JavaScript. Web Starter Kit uses ESLint with [eslint-config-google](https://github.com/google/eslint-config-google), which tries to follow the Google JavaScript style guide.                                                                                                |
+| Built-in HTTP Server                   | A built-in server for previewing your site locally while you develop and iterate                                                                                                                                                                            |
+| Live Browser Reloading                 | Reload the browser in real-time anytime an edit is made without the need for an extension. (Run `npm run start` and edit your files)                                                                                                                           |
+| Cross-device Synchronization           | Synchronize clicks, scrolls, forms and live-reload across multiple devices as you edit your project. Powered by [BrowserSync](http://browsersync.io). (Run `npm run start` and open up the IP provided on other devices on your network)                       |
+| PageSpeed Insights                     | Web performance metrics showing how well your site performs on mobile and desktop (Run `npm run pagespeed`)                                                                                                                                                    |
+| Accessibility                          | Runs a web accessibility audit during the build process. Powered by the Chrome Accessibility Tools (Run `npm run accessibility`)
+
