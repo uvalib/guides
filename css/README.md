@@ -207,7 +207,7 @@ sass/
 |– components/
 |   |– _buttons.scss     # Buttons
 |   |– _carousel.scss    # Carousel
-|   |– _cover.scss       # Cover
+|   |– _cards.scss       # Cards
 |   |– _dropdown.scss    # Dropdown
 |   ...                  # Etc…
 |
@@ -225,7 +225,7 @@ sass/
 |   |– _contact.scss     # Contact specific styles
 |   ...                  # Etc…
 |
-|– sass-utils/
+|– utils/
 |   |– _variables.scss   # Sass Variables
 |   |– _functions.scss   # Sass Functions
 |   |– _mixins.scss      # Sass Mixins
@@ -233,6 +233,7 @@ sass/
 |
 |– vendors/
 |   |– _bootstrap.scss   # Bootstrap
+|   |– _materialize.scss # Materialize
 |   |– _jquery-ui.scss   # jQuery UI
 |   ...                  # Etc…
 |
@@ -258,7 +259,7 @@ If you have page-specific styles, it is better to put them in a `pages/` folder,
 
 ### SASS-utils/ Folder
 
-The `sass-utils/` folder gathers all Sass tools and helpers used across the project. Every global variable, function, mixin and placeholder should be put in here.
+The `utils/` folder gathers all Sass tools and helpers used across the project. Every global variable, function, mixin and placeholder should be put in here.
 
 The rule of thumb for this folder is that it should not output a single line of CSS when compiled on its own. These are nothing but Sass helpers.
 
@@ -276,7 +277,7 @@ The style file should be the only Sass file from the whole code base not to begi
 
 Files should be imported according to the folder they live in, one after the other in the following order:
 
-1. `sass-utils/`
+1. `utils/`
 2. `vendors/`
 3. `base/`
 4. `layout/`
