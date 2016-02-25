@@ -1,8 +1,6 @@
 # U.Va Library Code Styleguides
 
 *a place to build styleguides, linters, and other reasonable approaches to code.*
- 
- For additions or contributions to this please submit a [pull request](https://github.com/uvalib/guides/pulls) or open an [issue](https://github.com/uvalib/guides/issues/new)
 
 ## Golden Rule
 ```
@@ -10,6 +8,8 @@ Every line of code should appear to be written by a single person, no matter the
 ```
 Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. 
 
+For additions or contributions to this please submit a [pull request](https://github.com/uvalib/guides/pulls) or open an [issue](https://github.com/uvalib/guides/issues/new)
+ 
 ## Table of Contents
 
   1. [CSS/SASS Styleguide](css/README.md)
