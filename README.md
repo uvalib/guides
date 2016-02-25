@@ -1,6 +1,8 @@
 # U.Va Library Code Styleguides
 
 *a place to build styleguides, linters, and other reasonable approaches to code.*
+ 
+ For additions or contributions to this please submit a [pull request](https://github.com/uvalib/guides/pulls) or open an [issue](https://github.com/uvalib/guides/issues/new)
 
 ## Golden Rule
 ```
