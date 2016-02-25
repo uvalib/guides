@@ -18,7 +18,7 @@ For additions or contributions to this please submit a [pull request](https://gi
   1. [Ruby Styleguide](ruby/README.md)
   1. [NPM Tooling](tooling/README.md)
 
-## Quick facts (To be replaced with Goals section once completed)
+## Quick facts
 
 A survey of our current state of technologies show:
 
