@@ -1,6 +1,6 @@
 # HTML Styleguide
 
-*Standards for developing flexible, durable, and sustainable HTML via @mdo* 
+*Standards for developing flexible, durable, and sustainable HTML* 
 
 ## Table of Contents
 
