@@ -50,8 +50,8 @@ Enforce standards mode and more consistent rendering in every browser possible w
 ### Language Attribute
 From the HTML5 spec:
 
-Authors are encouraged to specify a ```lang``` attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.
-Read more about the lang attribute [in the spec](http://w3c.github.io/html/semantics.html#the-html-element).
+*Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.*
+Read more about the ```html lang``` attribute [in the spec](http://w3c.github.io/html/semantics.html#the-html-element).
 
 Head to Sitepoint for a [list of language codes](http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/).
 
@@ -62,7 +62,7 @@ Head to Sitepoint for a [list of language codes](http://www.sitepoint.com/web-fo
 ```
 
 ### IE Compatibility Mode
-Internet Explorer supports the use of a document compatibility ```<meta>``` tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with edge mode.
+Internet Explorer supports the use of a document compatibility ```<meta>``` tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with **edge mode**.
 
 For more information, read this awesome [Stack Overflow article](http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e)
 ```html
@@ -78,12 +78,12 @@ For more information, read this awesome [Stack Overflow article](http://stackove
 
 ### CSS and JavaScript includes
 
-Per HTML5 spec, typically there is no need to specify a type when including CSS and JavaScript files as text/css and text/javascript are their respective defaults.
+Per HTML5 spec, typically there is no need to specify a ```type``` when including CSS and JavaScript files as ```text/css``` and ```text/javascript``` are their respective defaults.
 
 HTML5 spec links
-Using link
-Using style
-Using script
+* [Using link](https://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element)
+* [Using style](https://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element)
+* [Using script](https://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element)
 
 ```html
 <!-- External CSS -->
@@ -102,12 +102,12 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 
 ### Attribute order
 HTML attributes should come in this particular order for easier reading of code.
-* class
-* id, name
-* data-*
-* src, for, type, href, value
-* title, alt
-* role, aria-*
+* ```html class ```
+* ```html id, name ```
+* ```html data-* ```
+* ```html src ```, ```html for ```, ```html type ```, ```html href ```, ```html value ```
+* ```html title ```, ```htmlalt ```
+* ```html role```, ```html aria-* ```
 
 Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.
 
@@ -123,13 +123,13 @@ Classes make for great reusable components, so they come first. Ids are more spe
 ### Boolean attributes
 A boolean attribute is one that needs no declared value. XHTML required you to declare a value, but HTML5 has no such requirement.
 
-For further reading, consult the WhatWG section on boolean attributes:
+For further reading, consult the [WhatWG section on boolean attributes](https://html.spec.whatwg.org/multipage/infrastructure.html#boolean-attributes):
 
-The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value.
-If you must include the attribute's value, and you don't need to, follow this WhatWG guideline:
+*The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value.*
+If you must include the attribute's value, and **you don't need to**, follow this WhatWG guideline:
 
-If the attribute is present, its value must either be the empty string or [...] the attribute's canonical name, with no leading or trailing whitespace.
-In short, don't add a value.
+*If the attribute is present, its value must either be the empty string or [...] the attribute's canonical name, with no leading or trailing whitespace.*
+**In short, don't add a value**.
 
 ```html
 <input type="text" disabled>
