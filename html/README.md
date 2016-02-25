@@ -22,8 +22,8 @@
 * Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.
 * Nested elements should be indented once (two spaces).
 * Always use double quotes, never single quotes, on attributes.
-* Don't include a trailing slash in self-closing elements—the HTML5 spec says they're optional.
-* Don’t omit optional closing tags (e.g. </li> or </body>).
+* Don't include a trailing slash in self-closing elements—the [HTML5](https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag) spec says they're optional.
+* Don’t omit optional closing tags (e.g. ```</li>``` or ```</body>```).
 
 ```html
 <!DOCTYPE html>
@@ -50,10 +50,10 @@ Enforce standards mode and more consistent rendering in every browser possible w
 ### Language Attribute
 From the HTML5 spec:
 
-Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.
-Read more about the lang attribute in the spec.
+Authors are encouraged to specify a ```lang``` attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.
+Read more about the lang attribute [in the spec](http://w3c.github.io/html/semantics.html#the-html-element).
 
-Head to Sitepoint for a list of language codes.
+Head to Sitepoint for a [list of language codes](http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/).
 
 ```html
 <html lang="en-us">
@@ -62,7 +62,9 @@ Head to Sitepoint for a list of language codes.
 ```
 
 ### IE Compatibility Mode
- 
+Internet Explorer supports the use of a document compatibility ```<meta>``` tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with edge mode.
+
+For more information, read this awesome [Stack Overflow article](http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e)
 ```html
  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
