@@ -10,7 +10,7 @@ Enforce these, or your own, agreed upon guidelines at all times. Small or large,
 
 For additions or contributions to this please submit a [pull request](https://github.com/uvalib/guides/pulls) or open an [issue](https://github.com/uvalib/guides/issues/new)
  
-## Table of Contents
+## Guides
 
   1. [CSS/SASS Styleguide](css/README.md)
   1. [HTML Styleguide](html/README.md)
