@@ -51,7 +51,7 @@ Enforce standards mode and more consistent rendering in every browser possible w
 From the HTML5 spec:
 
 *Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.*
-Read more about the ```html lang``` attribute [in the spec](http://w3c.github.io/html/semantics.html#the-html-element).
+Read more about the ```lang``` attribute [in the spec](http://w3c.github.io/html/semantics.html#the-html-element).
 
 Head to Sitepoint for a [list of language codes](http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/).
 
@@ -102,12 +102,12 @@ Strive to maintain HTML standards and semantics, but not at the expense of pract
 
 ### Attribute order
 HTML attributes should come in this particular order for easier reading of code.
-* ```html class ```
-* ```html id, name ```
-* ```html data-* ```
-* ```html src ```, ```html for ```, ```html type ```, ```html href ```, ```html value ```
-* ```html title ```, ```htmlalt ```
-* ```html role```, ```html aria-* ```
+* ```class ```
+* ```id, name ```
+* ```data-* ```
+* ```src ```, ```for ```, ```type ```, ```href ```, ```value ```
+* ```title ```, ```alt ```
+* ```role```, ```aria-* ```
 
 Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.
 
