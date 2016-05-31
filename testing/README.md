@@ -1,12 +1,16 @@
 # Testing Recommendations
 
-https://www.polymer-project.org/1.0/docs/tools/tests
 
 ## Unit Testing
 
+
 ### Web Component Tester (WCT)
 
-This testing tool can be run locally on the development environment and on the Travis CI site.
+[Testing documentation for Polymer](https://www.polymer-project.org/1.0/docs/tools/tests) identifies Mocha, Selenium, etc. used by Web Component Tester. This testing tool can be run locally on the development environment and on the Travis CI site.
+
+After using the Yeoman process to create a new web component
+`yo polymer:seed <component-name>`
+the component's README file will provide information on installation of this tool and how to execute it.
 
 ### Selenium
 
