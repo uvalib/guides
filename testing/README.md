@@ -17,9 +17,6 @@ Configuration settings for WCT are stored in a wct.conf.json file. To run WCT on
 `      "disabled": true,` 
 to the sauce section of the wct.conf.json file. But this needs to be removed when committing the changes and running tests via Travis; otherwise the SauceLabs testing will result in an error indicating no browser configuration was specified.
 
-### Selenium
-
-
 ## Travis
 
 Travis provides an Ubuntu testing platform. The sample file included here is configured for the 64-bit Ubuntu 14.02 version which is necessary for running tests against Chrome. To test other platforms, we include SauceLabs connectivity. The configuration file included here contains most of the settings required for our testing. Additional configuration information for integrating with SauceLabs is documented in the next section. 
