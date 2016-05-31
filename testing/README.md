@@ -3,14 +3,17 @@
 
 ## Unit Testing
 
+Unit tests should be developed for expected results, as well as the unexpected. For example, if you don't expect null as a possible result then test to see if it can occur by creating multiple test fixtures with different values and make sure all asserts for not null pass.
 
 ### Web Component Tester (WCT)
 
-[Testing documentation for Polymer](https://www.polymer-project.org/1.0/docs/tools/tests) identifies Mocha, Selenium, etc. used by Web Component Tester. This testing tool can be run locally on the development environment and on the Travis CI site.
+[Testing documentation for Polymer](https://www.polymer-project.org/1.0/docs/tools/tests) identifies Mocha, Selenium, etc. used by WCT. This testing tool can be run locally on the development environment and on the Travis CI site.
 
 After using the Yeoman process to create a new web component
-`yo polymer:seed <component-name>`
+`yo polymer:seed <component-name>`,
 the component's README file will provide information on installation of this tool and how to execute it.
+
+Configuration settings for WCT are stored in a wct.conf.json file. 
 
 ### Selenium
 
@@ -25,4 +28,8 @@ After you have started using Travis to test builds, you may update your GitHub p
 
 ## SauceLabs
 
-We use this testing environment to test across multiple operating systems and devices which we know our patrons are using. Make sure you follow the [directions for integrating Sauce with WCT](https://github.com/Polymer/tools/tree/master/travis#wct-with-sauce). The access key required for this is found in the SauceLabs account under the settings. The secure keys added to the Travis YAML file are repository specific. So don't try to copy a Travis config file from one repo to another.
+We use this testing environment to test across multiple operating systems and devices which we know our patrons are using. Make sure you follow the [directions for integrating Sauce with WCT](https://github.com/Polymer/tools/tree/master/travis#wct-with-sauce). The access key required for this is found in the SauceLabs account under the settings. 
+
+The secure keys added to the Travis YAML file are repository specific. So don't try to copy a Travis config file from one repo to another.
+
+The various operating system and devices to be tested on SauceLabs should be configured in the WCT configuration file so that Travis can automate the process.
