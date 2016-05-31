@@ -13,7 +13,9 @@ After using the Yeoman process to create a new web component
 `yo polymer:seed <component-name>`,
 the component's README file will provide information on installation of this tool and how to execute it.
 
-Configuration settings for WCT are stored in a wct.conf.json file. 
+Configuration settings for WCT are stored in a wct.conf.json file. To run WCT on your development box and exclude SauceLabs testing, you need to add 
+`      "disabled": true,` 
+to the sauce section of the wct.conf.json file. But this needs to be removed when committing the changes and running tests via Travis; otherwise the SauceLabs testing will result in an error indicating no browser configuration was specified.
 
 ### Selenium
 
