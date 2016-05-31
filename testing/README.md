@@ -11,7 +11,7 @@ Unit tests should be developed for expected results, as well as the unexpected. 
 
 After using the Yeoman process to create a new web component
 `yo polymer:seed <component-name>`,
-the component's README file will provide information on installation of this tool and how to execute it.
+the component's README file will provide information on installation of this tool and how to run it.
 
 Configuration settings for WCT are stored in a wct.conf.json file. To run WCT on your development box and exclude SauceLabs testing, you need to add 
 `      "disabled": true,` 
