@@ -17,6 +17,7 @@ For additions or contributions to this please submit a [pull request](https://gi
   1. [Javascript Styleguide](js/README.md)
   1. [Ruby Styleguide](ruby/README.md)
   1. [NPM Tooling](tooling/README.md)
+  1. [Testing](testing/README.md)
 
 ## Recommendations
 
