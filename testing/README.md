@@ -3,7 +3,9 @@
 
 ## Unit Testing
 
-Unit tests should be developed for expected results, as well as the unexpected. For example, if you don't expect null as a possible result then test to see if it can occur by creating multiple test fixtures with different values and make sure all asserts for not null pass.
+Unit tests should be developed for expected results, as well as the unexpected. For example, 
+* if you expect a result to never be null, then test to see if it can occur by creating multiple test fixtures with different attributes and make sure all asserts for not null pass 
+* if a property should always contain a positive number, then set it to a negative value and assert that it is not negative; if this test fails then the component should be designed so that it checks the value assigned
 
 ### Web Component Tester (WCT)
 
