@@ -9,6 +9,7 @@
     - [Selectors](#selectors)
     - [Properties](#properties)
   1. [CSS](#css)
+    - [Semantics](#semantics)
     - [Formatting](#formatting)
     - [Comments](#comments)
     - [OOCSS and BEM](#oocss-and-bem)
@@ -64,6 +65,76 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 ## CSS
 
+### Semantics
+First, let’s cover what we mean when we say that we want to make things more “semantic”. HTML documents are intended to be descriptive of their contents from an information hierarchy perspective. One should be able to read them and know what they are about, not how they will look.
+
+You might be wondering how you’re going to use CSS Frameworks without any of their built-in class names in your markup? Well, we can leverage the power of Sass’s @extend functionality to solve this problem.
+
+**Bad**
+
+```html
+<div class="row">
+  <div class="col-md-4">
+    Name:
+  </div>
+  <div class="col-md-4">
+    John
+  </div>
+  <div class="col-md-4">
+    Smith
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <p>"I enjoy writing code in my spare time."</p>
+  </div>
+</div>
+```
+
+**Good**
+
+```html
+<div class="name">
+  <label class="name__label">
+    Name:       
+  </label>
+  <span class="name__first">
+    John        
+  </span>
+  <span class="name__last">
+    Smith
+  </span>
+</div>
+<div class="bio">
+  <p>"I enjoy writing code in my spare time."</p>
+</div>
+```
+This means we can use our semantic selectors and extend any  CSS Frameworks’s selectors to get all of its goodness. Here’s an example using Bootstrap:
+
+```CSS
+/* Import bootstrap-sass so that we have access to all of its selectors */
+@import "bootstrap";
+
+/* Bio and Name are just Bootstrap .row elements */
+.bio,
+.name {
+  @extend .row;
+}
+
+/* name Label, name First and name Last need
+   to be a third of their container's width */
+.name__label,
+.name__first,
+.name__last {
+  @extend .col-md-4;
+}
+
+/* The paragraph inside the author's bio should be full width */
+.bio p {
+  @extend .col-md-12;
+}
+
+```
 ### Formatting
 
 * Use soft tabs (2 spaces) for indentation
