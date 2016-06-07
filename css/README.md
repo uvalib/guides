@@ -12,7 +12,7 @@
     - [Semantics](#semantics)
     - [Formatting](#formatting)
     - [Comments](#comments)
-    - [OOCSS and BEM](#oocss-and-bem)
+    - [Naming](#naming)
     - [ID Selectors](#id-selectors)
     - [JavaScript hooks](#javascript-hooks)
     - [Border](#border)
@@ -138,7 +138,7 @@ This means we can use our semantic selectors and extend any  CSS Frameworks’s 
 ### Formatting
 
 * Use soft tabs (2 spaces) for indentation
-* Prefer dashes over camelCasing in class names. Underscores are OK if you're using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
+* Prefer dashes over camelCasing in class names. Underscores are OK if you're using BEM (see [Naming](#naming) below).
 * Do not use ID selectors
 * When using multiple selectors in a rule declaration, give each selector its own line.
 * Put a space before the opening brace `{` in rule declarations
@@ -183,7 +183,7 @@ This means we can use our semantic selectors and extend any  CSS Frameworks’s 
   - Uses of z-index
   - Compatibility or browser-specific hacks
 
-### OOCSS and BEM
+### Naming
 
 We encourage some combination of OOCSS and BEM for these reasons:
 
