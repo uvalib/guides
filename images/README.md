@@ -25,5 +25,6 @@ Determine the width or height of your element for a chosen aspect ratio using th
 Width = Aspect ratio * Height
 Height = Width/Aspect ratio
 
-**Link below for more information on ratio keylines:** 
+**Link below for more information on ratio keylines:**
+
 https://material.google.com/layout/metrics-keylines.html#metrics-keylines-ratio-keylines
