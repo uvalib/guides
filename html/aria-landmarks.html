@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Page Accessibility Starter</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#f5f5f5">
+
+     <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+  <body>
+  
+    <!-- Skip to navigation links -->
+    <a href="#content" class="skip-nav">Skip to main content</a>
+    <a href="#navigation" class="sr-only">Skip to navigation</a>
+    <a href="#search" class="sr-only">Skip to search</a>
+    <!-- End Skip Navigation -->
+
+    <!-- Header: Can contain a headings, site logo, navigation [role=banner]-->
+    <header role="banner">
+      <!-- Navigation [role=navigation] -->
+      <nav role="navigation">
+        <div class="sr-only">Main Navigation</div>
+        <a href="#!">About</a>
+        <a href="#!">Collections</a>
+        <a href="#!">Research</a>
+        <a href="#!">Services</a>
+      </nav>
+      <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Main Content [role=main] -->
+    <main id="content" role="main">
+      
+      <!-- Restrict to one <h1> tag per page if possible -->
+      <h1>Page Title or Main Content Heading</h1>
+      <h2>Major Section Heading</h2>
+      <h3>Subsections of the h2</h3>
+      <img src="sample.jpg" alt="All sample images should have alt text">
+      <a href="#!">Testing Skip to main content</a>
+
+      <!-- Search Form [role=search] -->
+      <form method="get" role="search" action="/search/">
+        <input type="search" name="googlesearch" placeholder="Search...">
+        <button type="submit" value="Search">Search</button>
+		  </form>
+      <!-- End Search Form -->
+
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Sidebar [role="complementary] -->
+    <aside role="complementary">Information that is tangentially
+      related to the main page content, but can be read separately.
+      Visually you might see this as a sidebar.
+    <aside>
+    <!-- End Sidebar -->
+
+    <!-- Footer: contains author, copyright, privacy policy, helpful links. [role="contentinfo"] -->
+    <footer role="contentinfo">Footer Content</footer>
+    <!-- End Footer -->
+
+    <!-- Page scripts -->
+    <script src="scripts/main.js"></script>
+
+    <!-- Piwik: change both XXXX below to be your site's ID -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//analytics.lib.virginia.edu/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', XXXX]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//analytics.lib.virginia.edu/piwik.php?idsite=XXXX" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+
+  </body>
+<html>
