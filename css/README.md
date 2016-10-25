@@ -266,7 +266,7 @@ Use `0` instead of `none` to specify that a style has no border.
 ## Sass
 
 ### Architecture
-
+https://sass-guidelin.es/#the-7-1-pattern
 ```
 sass/
 |
