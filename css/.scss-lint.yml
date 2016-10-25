@@ -44,3 +44,6 @@ linters:
   StringQuotes:
     enabled: true
     style: double_quotes
+    
+  ImportPath:
+    leading_underscore: true
