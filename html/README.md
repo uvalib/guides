@@ -101,6 +101,7 @@ HTML5 spec links
 Strive to maintain HTML standards and semantics, but not at the expense of practicality. Use the least amount of markup with the fewest intricacies whenever possible.
 
 ### Attribute order
+http://codeguide.co/#html-lang
 HTML attributes should come in this particular order for easier reading of code.
 * ```class ```
 * ```id, name ```
