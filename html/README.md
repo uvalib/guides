@@ -5,6 +5,7 @@
 ## Table of Contents
 
   1. [Aria Roles](#aria)
+  1. [Structured Data](#structured-data)
   1. [Syntax](#syntax)
   1. [HTML5 doctype](#html5-doctype)
   1. [Language Attribute](#language-attribute)
@@ -17,6 +18,16 @@
   1. [Reducing markup](#reducing-markup)
   1. [JavaScript generated markup](#javascript-generated-markup)
 
+
+### Structured Data
+Schema.org (often called Schema) is a specific vocabulary of tags (or microdata) that you can add to your HTML to improve the way your page is represented in SERPs.
+#### What is Schema.org Structured Data?
+Schema.org is the result of collaboration between Google, Bing, Yandex, and Yahoo! to help you provide the information their search engines need to understand your content and provide the best search results possible at this time. Adding Schema markup to your HTML improves the way your page displays in SERPs by enhancing the rich snippets that are displayed beneath the page title.
+
+To learn more about adding Schema to your HTML, visit the links below
+https://moz.com/learn/seo/schema-structured-data
+https://schema.org/Article
+https://www.google.com/webmasters/markup-helper/u/0/
 
 ### Aria
 #### Use [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) roles appropriately
