@@ -32,12 +32,12 @@ At the present, we officially aim to support the following browsers
 Note: Our site can be used in other browsers, but our focus will be making the above browsers work optimally. 
 
 ### The CSS browser prefixes that you can use (each of which is specific to a different browser) are:
-Android: -webkit-
-Chrome: -webkit-
-Firefox: -moz-
-Internet Explorer: -ms-
-iOS: -webkit-
-Opera: -o-
+- Android: -webkit-
+- Chrome: -webkit-
+- Firefox: -moz-
+- Internet Explorer: -ms-
+- iOS: -webkit-
+- Opera: -o-
 
 Note: If you are autoprefixing browsers, the below Javascript code will provide wide coverage.
 ```javascript
