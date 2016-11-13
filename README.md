@@ -21,16 +21,25 @@ For additions or contributions to this please submit a [pull request](https://gi
   
 ## Browser Support
 At the present, we officially aim to support the following browsers
-- IE9, IE10+
-- Firefox 30, 31
-- Chrome 34, 35
-- Safari 7,8
-- Opera Coast
+- IE10+, Edge
+- Firefox 45+
+- Chrome 43+
+- Safari 8+
+- Opera Mini 7.5+
 - Android(Chrome 4.4, 4.3.3)
 - Blackberry 10
 
 Note: Our site can be used in other browsers, but our focus will be making the above browsers work optimally. 
 
+### The CSS browser prefixes that you can use (each of which is specific to a different browser) are:
+Android: -webkit-
+Chrome: -webkit-
+Firefox: -moz-
+Internet Explorer: -ms-
+iOS: -webkit-
+Opera: -o-
+
+Note: If you are autoprefixing browsers, the below Javascript code will provide wide coverage.
 ```javascript
 const AUTOPREFIXER_BROWSERS = [
     'ie >= 10',
