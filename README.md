@@ -18,7 +18,32 @@ For additions or contributions to this please submit a [pull request](https://gi
   1. [Ruby Styleguide](ruby/README.md)
   1. [NPM Tooling](tooling/README.md)
   1. [Testing](testing/README.md)
+  
+## Browser Support
+At the present, we officially aim to support the following browsers
+- IE9, IE10+
+- Firefox 30, 31
+- Chrome 34, 35
+- Safari 7,8
+- Opera Coast
+- Android(Chrome 4.4, 4.3.3)
+- Blackberry 10
 
+Note: Our site can be used in other browsers, but our focus will be making the above browsers work optimally. 
+
+```javascript
+const AUTOPREFIXER_BROWSERS = [
+    'ie >= 10',
+    'ie_mob >= 10',
+    'ff >= 30',
+    'chrome >= 34',
+    'safari >= 7',
+    'opera >= 23',
+    'ios >= 7',
+    'android >= 4.4',
+    'bb >= 10'
+  ];
+```
 ## Recommendations
 
 A survey of our current state of technologies show:
@@ -42,3 +67,7 @@ Based on our current state, these guides should provide the following:
 * Some tooling options for minifying, concatenating, and adding browser prefixes
 * Use Normalize.css and a mix of our own reset styles
 
+## License
+
+Apache 2.0  
+Copyright 2016 University of Virginia Library
