@@ -19,15 +19,12 @@ For additions or contributions to this please submit a [pull request](https://gi
   1. [NPM Tooling](tooling/README.md)
   1. [Testing](testing/README.md)
   
-## Browser Support
-At the present, we officially aim to support the following browsers
-- IE10+, Edge
-- Firefox 45+
-- Chrome 43+
-- Safari 8+
-- Opera Mini 7.5+
-- Android(Chrome 4.4, 4.3.3)
-- Blackberry 10
+## Operating System/Browser Support
+At the present, we officially aim to support the following operating system browsers
+- Windows 7/8.1/10 with IE10+, Firefox 45+, and Chrome 43+
+- MacOS X 10.9+ with Safari 8+, Firefox 45+, and Chrome 43+
+- Android 4.0+ with Chrome Mobile 38+, Opera Mini 7.5+, and Chrome 52+
+- iOS9+ with Mobile Safari 8+ and Chrome Mobile 52+
 
 Note: Our site can be used in other browsers, but our focus will be making the above browsers work optimally. 
 
